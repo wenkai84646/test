@@ -9,7 +9,7 @@ int main()
     int a = INT_MAX;
     printf("a = %d\n", a);
     a++;  // 溢出！
-    printf("a++ = %d\n", a);  // 变成了最小值（绕回去了）
+    printf("1a++ = %d\n", a);  // 变成了最小值（绕回去了）
 
     return 0;
 }
