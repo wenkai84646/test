@@ -1,0 +1,15 @@
+# 编译出来的程序文件（随时可以重新编译，不用上传）
+*.exe
+*.o
+*.obj
+
+# 大文件：Keil 支持包（GitHub 限制单个文件 100MB）
+*.pack
+
+# Keil 工程的自动生成文件
+STM32L0_OLED/Objects/
+STM32L0_OLED/DebugConfig/
+STM32L0_OLED/RTE/
+
+# 旧仓库备份（里面还有那个 104MB 大文件，绝不能提交）
+.git_backup_20260928/
